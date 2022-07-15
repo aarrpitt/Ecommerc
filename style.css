@@ -213,7 +213,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:space-around;
-    animation: zoomin 1s linear 1;
+    animation: movedown 1s linear 1;
     animation-delay: 1.7s;
     visibility: hidden;
     animation-fill-mode: forwards;
