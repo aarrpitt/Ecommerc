@@ -328,6 +328,21 @@ body{
 
 }
 
+#product1 .pro .figure img.image-hover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    object-fit: 80%;
+    opacity: 0;
+    transition: opacity .2s;
+    
+  }
+  #product1 .pro .figure:hover img.image-hover {
+    opacity: 1;
+    border-radius: 20px;
+  }
 
 #product1 .pro .des{
     text-align: start;
@@ -360,11 +375,7 @@ body{
     color: #088178;
     
 }
-#product1 button:hover{
-    background-color: #16a085;
-    color: white;
-    box-shadow: #1a1a1a;
- }
+
 #product1 .pro .cart{
     width: 40px;
     height: 40px;
